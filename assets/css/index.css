@@ -36,10 +36,6 @@ img {
   margin: auto;
 }
 
-div#socials li {
-  position: relative;
-  left: -14px;
-}
 div#socials li::marker {
   content: '';
 }
