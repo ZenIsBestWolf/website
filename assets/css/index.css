@@ -1,7 +1,5 @@
 body {
   margin: 40px 40px;
-  /*max-width: 800px;*/
-  /*line-height: 1.6;*/
   font-size: 18px;
   color: #eee;
   background-color: #222;
@@ -12,8 +10,9 @@ h1, h2, h3 {
   line-height: 1.2
 }
 
-#header {
-  display: flex;
+#bio {
+  display: block;
+  margin-bottom: 15px;
 }
 
 img {
@@ -25,8 +24,8 @@ img {
   float: left;
   margin-right: 40px;
   margin-bottom: 20px;
-  max-width: 250px;
-  max-height: 250px;
+  width: 250px;
+  height: 250px;
 }
 
 .caption {
@@ -40,4 +39,9 @@ img {
 
 div#socials li::marker {
   content: '';
+}
+
+a {
+  text-decoration: underline;
+  color: #eee;
 }
