@@ -1,0 +1,47 @@
+body {
+  margin: 40px 40px;
+  font-size: 18px;
+  color: #eee;
+  background-color: #222;
+  padding: 0 10px
+}
+
+h1, h2, h3 {
+  line-height: 1.2
+}
+
+#bio {
+  display: block;
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 10%;
+}
+
+#pfp {
+  box-shadow: 4px 4px #111;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 250px;
+}
+
+.caption {
+  margin: 0px;
+  font-style: italic;
+}
+
+#bio h1 {
+  margin: auto;
+}
+
+div#socials li::marker {
+  content: '';
+}
+
+a {
+  text-decoration: underline;
+  color: #eee;
+}
